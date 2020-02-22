@@ -62,7 +62,7 @@ button:active {
 
 @media screen and (min-width: 500px) {
   body {
-    position: relative;
+    position: flex;
     border: 3px solid red;
 /*     width: 500px;
     height: 500px; */
