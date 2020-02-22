@@ -65,7 +65,7 @@ button:active {
     position: flex;
     border: 3px solid red;
     width: 500px;
-    height: 500px; 
+    height: 480px; 
   }
 
   .Container {
