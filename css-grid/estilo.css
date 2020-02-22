@@ -60,11 +60,11 @@ button:active {
   padding: 10px;
 }
 
-@media screen and (min-width: 500px) {
+@media  (max-width: 500px) {
   body {
     position: flex;
     border: 3px solid red;
-    width: 500px;
+    width: 50%;
     height: 50%; 
   }
 
