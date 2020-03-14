@@ -22,7 +22,7 @@ overflow: hidden;
 
 }
 
-#history {
+#historic {
   grid-column-start: 3;
   grid-column-end: 5;
 }
@@ -31,6 +31,8 @@ overflow: hidden;
   color: azure;
   grid-column: span 4;
   grid-row: 2fr;
+  
+
 
   display: flex;
   justify-content: flex-end;
@@ -54,10 +56,24 @@ button:active {
   background-color: #ccc;
 }
 
-.button-operacoes {
+.button_operacoes {
+  /* background-color: #fa8231; */
   background-color: #fa8231;
   color: #FFF;
   padding: 10px;
+}
+
+#signal {
+  position: absolute; 
+  color: #FFF;
+  /* border: 3px solid red; */
+  margin: 50px 0px 0px 0px; 
+}
+
+/*btn op*/
+
+.btn_acao {
+  background-color: ;
 }
 
 @media  (max-width: 500px) {
